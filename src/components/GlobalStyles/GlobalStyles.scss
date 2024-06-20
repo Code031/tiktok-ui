@@ -2,9 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --primary: #fe2c55
+    --primary: #fe2c55;
+
+    // Deafult layout 
+    --deafult-layout-header-hight: 60px;
+    --deafult-layout-width: 1150px;
 }
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 html {
